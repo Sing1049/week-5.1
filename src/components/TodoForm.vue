@@ -3,7 +3,7 @@
     <slot name="title"></slot>
     <form @submit.prevent="addTodo">
       <input type="text" v-model="newTodo" />
-      <button type="submit" name="button">Add</button>
+      <!-- <button type="submit" name="button">Add</button> -->
     </form>
     <br />
     <slot name="description"></slot>
